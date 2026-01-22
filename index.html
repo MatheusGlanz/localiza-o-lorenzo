@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chá do lorenzo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<h1>Chá De Fraldas</h1>
+<h2>Do Lorenzo & Mimo.</h2>
+
+
+<p>
+Caro convidado, clique no botão abaixo e você será redirecionado à localização da festa.
+<br /><br />
+<strong> TRAGA SEU COOLER COM SUA BEBIDA DE PREFERÊNCIA.</strong>
+</p>
+
+
+<div class="info">
+📅 31/01/2026<br />
+⏰ Horário: 20:00
+</div>
+
+
+<p>Contamos com a sua presença 💚</p>
+
+
+<button onclick="irParaLocalizacao()">📍 Seguir localização</button>
+
+
+<footer>
+Chá de Fraldas do Lorenzo
+</footer>
+</div>
+
+
+<script>
+function irParaLocalizacao() {
+const latitude = -21.120167;
+const longitude = -47.756972;
+
+
+const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
+window.location.href = url;
+}
+</script>
+</body>
+</html>
