@@ -8,7 +8,7 @@ box-sizing: border-box;
 body {
 min-height: 100vh;
 font-family: 'Segoe UI', Arial, sans-serif;
-background: linear-gradient(180deg, #7fbfb3 0%, #5fa69a 100%);
+background-image: url("1.png");
 display: flex;
 align-items: center;
 justify-content: center;
@@ -103,4 +103,5 @@ font-size: 1.05rem;
 p {
 font-size: 0.95rem;
 }
+
 }
